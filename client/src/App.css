@@ -1,0 +1,42 @@
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f39c12 !important; /* Hover effect for links */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #f39c12 !important;
+}
+  
+.hero-img{
+  width: 500px;
+  height: 440px;
+}
+
+.icons{
+  font-size: 4.3rem;
+  color: #f39c12;
+}
+.icon:hover{
+  color: #f33f12;
+}
+
+.hero-heading{
+  font-size: 4.3rem;  
+}
+
+@media screen and (max-width: 992px) {
+  .hero-img{
+    width: 370px;
+  }
+}
+@media screen and (max-width: 392px) {
+  .hero-img{
+    width: 300px;
+    height: 390px;
+  }
+}
